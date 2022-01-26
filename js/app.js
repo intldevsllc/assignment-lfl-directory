@@ -5,6 +5,7 @@ const Content = function () {
   if (search.includes('page=add')) {
     content.append(Add())
   } else if (search.includes('page=verify')) {
+    content.append(Verify())
   } else if (search.includes('page=update')) {
   } else if (search.includes('page=delete')) {
   } else {
