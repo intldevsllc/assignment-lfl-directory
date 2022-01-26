@@ -3,6 +3,7 @@ const Content = function () {
   const { search } = window.location
 
   if (search.includes('page=add')) {
+    content.append(Add())
   } else if (search.includes('page=verify')) {
   } else if (search.includes('page=update')) {
   } else if (search.includes('page=delete')) {
