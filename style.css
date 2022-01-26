@@ -10,3 +10,28 @@ body {
   font-family: 'Montserrat', sans-serif;
 }
 
+.sidebar {
+  width: 12.5rem;
+  background-color: #333333;
+  padding-top: 6.25rem;
+}
+
+.sidebar .icon {
+  display: block;
+  width: 1.5rem;
+  margin: 0 auto 0.75rem;
+}
+
+.sidebar .navlink {
+  display: block;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 0.75rem;
+}
+
+.sidebar .navlink.active {
+  color: #f1eb84;
+}
