@@ -7,6 +7,7 @@ const Content = function () {
   } else if (search.includes('page=verify')) {
     content.append(Verify())
   } else if (search.includes('page=update')) {
+    content.append(Update())
   } else if (search.includes('page=delete')) {
   } else {
     content.append(Index())
