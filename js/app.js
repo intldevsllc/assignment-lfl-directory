@@ -9,6 +9,7 @@ const Content = function () {
   } else if (search.includes('page=update')) {
     content.append(Update())
   } else if (search.includes('page=delete')) {
+    content.append(Delete())
   } else {
     content.append(Index())
   }
