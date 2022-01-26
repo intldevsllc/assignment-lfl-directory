@@ -7,6 +7,7 @@ const Content = function () {
   } else if (search.includes('page=update')) {
   } else if (search.includes('page=delete')) {
   } else {
+    content.append(Index())
   }
 
   return content
@@ -16,6 +17,10 @@ const App = function () {
   const app = create('div', 'app')
   const sidebar = Sidebar()
   const content = Content()
+
+  if (!state.employeeList || state.employeeList === employeeList) {
+    setState('employeeList', employeeList)
+  }
 
   app.append(sidebar)
   app.append(content)

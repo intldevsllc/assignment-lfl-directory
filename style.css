@@ -35,3 +35,16 @@ body {
 .sidebar .navlink.active {
   color: #f1eb84;
 }
+
+.content {
+  flex: 1;
+  padding: 1rem;
+  overflow: auto;
+}
+
+.employee-item {
+  border: 1px solid rgb(214, 214, 214);
+  padding: 0 1rem;
+  margin-bottom: 1rem;
+}
+
